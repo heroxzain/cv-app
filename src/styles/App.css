@@ -1,0 +1,67 @@
+/* Shared Button System */
+.btn {
+  appearance: none;
+  border-radius: 6px;
+  cursor: pointer;
+  font-family: var(--sans);
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 20px;
+  padding: 8px 18px;
+  transition: background-color 0.15s ease, border-color 0.15s ease, box-shadow 0.15s ease;
+}
+
+.btn-primary {
+  background-color: #2ea44f;
+  border: 1px solid rgba(27, 31, 35, 0.15);
+  color: #fff;
+}
+
+.btn-primary:hover {
+  background-color: #2c974b;
+}
+
+.btn-primary:focus-visible {
+  box-shadow: rgba(46, 164, 79, 0.4) 0 0 0 3px;
+  outline: none;
+}
+
+.btn-secondary {
+  background-color: var(--bg);
+  border: 1px solid var(--border);
+  color: var(--text-h);
+}
+
+.btn-secondary:hover {
+  background-color: var(--code-bg);
+}
+
+.btn-danger {
+  background-color: #cf222e;
+  border: 1px solid rgba(27, 31, 35, 0.15);
+  color: #fff;
+}
+
+.btn-danger:hover {
+  background-color: #a40e26;
+}
+
+/* Final CV Page Wrapper & Top Action Bar */
+.cv-page {
+  width: 100%;
+  max-width: 760px;
+  margin: 24px auto 48px;
+  padding: 0 20px;
+  box-sizing: border-box;
+}
+
+.cv-actions {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-top: 48px;
+}
+
+footer {
+  padding: 20px 16px;
+}
